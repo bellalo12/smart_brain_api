@@ -25,9 +25,9 @@ app.get('/', (req, res)=>{
   res.json('running success')
 })
 
-app.post('/signin', (req, res)=>signin.handleSignin(req, res, bcrypt, db))
+app.post('/signin', (req, res)=>signin.handleSignin(req, res, db, bcrypt))
 
-app.post('/register', (req, res)=>{register.handleRegister(req, res, bcrypt, db)})
+app.post('/register', (req, res)=>{register.handleRegister(req, res, db, bcrypt)})
 
 app.get('/profile/:id', (req, res)=>(profile.handleProfile(req, res, db)))
 

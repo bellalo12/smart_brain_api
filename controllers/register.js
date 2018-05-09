@@ -1,4 +1,4 @@
-const handleRegister = (req, res, bcrypt, db)=>{
+const handleRegister = (req, res, db, bcrypt)=>{
   const hash = bcrypt.hashSync(req.body.password)
   db.transaction(trx=>{
     trx.insert({
