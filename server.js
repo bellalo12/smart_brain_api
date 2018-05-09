@@ -16,9 +16,7 @@ const db = knex({
     connectinString : process.env.DATABASE_URL,
     ssl: true,
   }
-  if(err){
-    console.log(err)
-  }
+  console.log(process.env.DATABASE_URL)
 });
 
 app.use(bodyParser.json())
