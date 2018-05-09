@@ -19,5 +19,14 @@
     "knex": "^0.14.6",
     "nodemon": "^1.17.4",
     "pg": "^7.4.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellalo12/smart_brain_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bellalo12/smart_brain_api/issues"
+  },
+  "homepage": "https://github.com/bellalo12/smart_brain_api#readme"
 }
