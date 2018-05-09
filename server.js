@@ -13,7 +13,7 @@ const image = require('./controllers/image')
 const db = knex({
   client: 'pg',
   connection: {
-    connectinString : process.env.DATABASE_URL || "postgres://wezwijdwrhhhpb:ef1a222fa5b897f23a1f816ebc916b7bd1834a1c09d98387e1c0e51d9af65b03@ec2-54-83-204-6.compute-1.amazonaws.com:5432/d3epmn2s7vtnpa"
+    connectinString : process.env.DATABASE_URL 
     ssl: true
   }
 });
