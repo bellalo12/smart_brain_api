@@ -1,3 +1,4 @@
+
 {
   "name": "smart-brain-api",
   "version": "1.0.0",
@@ -5,8 +6,13 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
+  "engines": {
+    "node": "9.2.0",
+    "npm": "5.5.1"
+  },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
